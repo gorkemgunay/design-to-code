@@ -1,0 +1,19 @@
+@import "variables";
+
+.card {
+    background: $whiteColor;
+    border: 2px solid $primaryColor;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 20px rgba($primaryColor, 0.1);
+    border-radius: 20px;
+    width: 28rem;
+    height: 18rem;
+    padding: 2rem;
+    text-align: left;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    &:hover {
+        transform: translateY(-0.5rem);
+        box-shadow: 0px 10px 20px rgba($primaryColor, 0.4);
+    }
+}

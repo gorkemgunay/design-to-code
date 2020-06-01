@@ -1,0 +1,36 @@
+@import "variables";
+
+.btn {
+    cursor: pointer;
+    color: $whiteColor;
+    display: inline-block;
+    transition: all 0.5s ease;
+    &-primary {
+        background: linear-gradient(
+            102.64deg,
+            $secondaryColor 0%,
+            $primaryColor 100%
+        );
+        border-radius: 4px;
+        padding: 1.5rem 7rem;
+
+        &:hover {
+            transform: translateY(-0.5rem);
+            box-shadow: 0px 5px 20px rgba($primaryColor, 0.4);
+        }
+    }
+
+    &-secondary {
+        border: 1px solid $primaryColor;
+        border-radius: 5px;
+        color: $primaryColor;
+        padding: 0.2rem 1.7rem;
+        transition: all 0.5s ease;
+        &:hover {
+            background: $primaryColor;
+            color: $whiteColor;
+            transform: translateY(-0.5rem);
+            box-shadow: 0px 5px 20px rgba($primaryColor, 0.4);
+        }
+    }
+}

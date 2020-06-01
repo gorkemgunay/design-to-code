@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+@import "variables";
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: $fontRegular;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+    color: $textColor;
+}
+
+h1,
+h2 {
+    font-weight: $fontBold;
+    text-shadow: 0px 10px 20px rgba($textColor, 0.25);
+}
+
+h1,
+h2,
+h3 {
+    line-height: 7rem;
+}
+
+h1 {
+    font-size: $largeTitle;
+}
+
+h2 {
+    font-size: $subTitle;
+}
+
+h3 {
+    font-size: $titleRegular;
+    font-weight: $titleRegular;
+}
+
+h4 {
+    font-weight: $fontMedium;
+    font-size: $mediumText;
+}
+
+p,
+a {
+    font-size: $bodyText;
+    line-height: 150%;
+}
+
+small {
+    font-size: $subHead;
+    opacity: 0.3;
+}
+
+.purple {
+    color: $primaryColor;
+    text-shadow: 0px 10px 20px rgba($primaryColor, 0.25);
+}
+
+.bold {
+    font-weight: $fontBold;
+}
+
+input {
+    font-family: "Roboto", sans-serif;
+}
